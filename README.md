@@ -1,56 +1,51 @@
 # 💱 Currency Converter
 
 ## 📌 About the Project
+The Currency Converter is a simple Python-based project that converts an amount from one currency to another. It supports four currencies: Indian Rupee (INR), US Dollar (USD), Euro (EUR), and British Pound (GBP).
 
-A simple Python-based Currency Converter that converts amounts between three currencies: Indian Rupee (INR), US Dollar (USD), and Euro (EUR).
-
-It uses predefined exchange rates to calculate the converted amount.
+The program uses predefined exchange rates and allows users to perform multiple conversions until they choose to exit.
 
 ## ✨ Features
-
-- Supports INR, USD, and EUR.
+- Supports 4 currencies: INR, USD, EUR, and GBP.
 - Converts between different currencies.
-- Allows users to perform multiple conversions.
-- Validates currency selections.
-- Prevents zero and negative amounts.
+- Takes user input for currency selection and amount.
+- Checks for invalid currency choices.
+- Prevents zero or negative amounts.
 - Handles invalid numerical inputs.
-
-
+- Allows multiple conversions in one session.
 
 ## 💻 Technologies Used
-
 - Python 3
 - Dictionary
 - While Loop
 - If-Else Statements
-- Try-Except
-- String Formatting
+- Try-Except Exception Handling
+- User Input and Output
 
-## 💱 Exchange Rates
+## 💱 Supported Currencies
 
-| Currency | Rate |
-| -------- | ---: |
-| INR      |    1 |
-| USD      |   83 |
-| EUR      |   90 |
+| Currency | Exchange Rate |
+|---|---:|
+| INR | 1 |
+| USD | 83 |
+| EUR | 90 |
+| GBP | 105 |
 
-*Note: Exchange rates are predefined sample values and are not live market rates.*
+*Note: These are predefined sample exchange rates and may not reflect current market rates.*
 
 ## ▶️ How to Run
-
-1. Clone or download this repository.
-2. Open the project in VS Code.
+1. Download or clone this repository.
+2. Open the project folder in VS Code or any Python IDE.
 3. Run the Python file.
-4. Select the source and destination currencies.
-5. Enter the amount to convert.
+4. Select the currencies and enter the amount.
+5. View the conversion result.
 
 ## 🎯 Learning Outcomes
-
-- Understanding dictionaries.
-- Practicing loops and conditional statements.
-- Handling user input and exceptions.
-- Performing currency conversion calculations.
+- Understanding Python dictionaries.
+- Working with loops and conditional statements.
+- Handling user input.
+- Using exception handling.
+- Performing mathematical calculations.
 
 ## 👩‍💻 Author
-
-Riddhi Deshmukh
+**Riddhi Deshmukh**
